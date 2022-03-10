@@ -33,13 +33,18 @@
       "type": "uid",
       "targetField": "name"
     },
-    "band_logo_url": {
-      "type": "text"
-    },
     "concerts": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::concert.concert"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

@@ -15,7 +15,8 @@
         "standard",
         "senior",
         "vip"
-      ]
+      ],
+      "default": "standard"
     },
     "price": {
       "type": "decimal"

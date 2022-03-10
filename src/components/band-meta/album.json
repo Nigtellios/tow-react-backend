@@ -18,8 +18,12 @@
       "max": 10,
       "default": 5
     },
-    "album_picture_url": {
-      "type": "text"
+    "front_picture": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

@@ -19,8 +19,12 @@
     "url": {
       "type": "text"
     },
-    "location_picture_url": {
-      "type": "text"
+    "location_picture": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
