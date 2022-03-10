@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bands",
+  "info": {
+    "singularName": "band",
+    "pluralName": "bands",
+    "displayName": "Band",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "city_of_founding": {
+      "type": "text"
+    },
+    "meta": {
+      "type": "dynamiczone",
+      "components": [
+        "band-meta.band-albums",
+        "band-meta.band-members"
+      ]
+    },
+    "band_slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "band_logo_url": {
+      "type": "text"
+    },
+    "concerts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::concert.concert"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_band_meta_albums",
+  "info": {
+    "displayName": "Album",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "year_of_publication": {
+      "type": "date"
+    },
+    "rating": {
+      "type": "integer",
+      "max": 10,
+      "default": 5
+    },
+    "album_picture_url": {
+      "type": "text"
+    }
+  }
+}

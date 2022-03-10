@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_concert_meta_tickets",
+  "info": {
+    "displayName": "Tickets",
+    "icon": "clone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ticket": {
+      "type": "component",
+      "repeatable": true,
+      "component": "concert-meta.single-ticket"
+    }
+  }
+}

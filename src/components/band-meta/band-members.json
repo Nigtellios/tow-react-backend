@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_band_meta_band_members",
+  "info": {
+    "displayName": "Band Members",
+    "icon": "user-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "member": {
+      "displayName": "Member",
+      "type": "component",
+      "repeatable": true,
+      "component": "band-meta.member"
+    }
+  }
+}

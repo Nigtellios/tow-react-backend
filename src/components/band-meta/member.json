@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_band_meta_members",
+  "info": {
+    "displayName": "Member",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "member_name": {
+      "type": "string"
+    },
+    "member_instrument": {
+      "type": "string"
+    },
+    "member_picture_url": {
+      "type": "text"
+    }
+  }
+}

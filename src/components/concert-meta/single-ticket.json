@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_concert_meta_single_tickets",
+  "info": {
+    "displayName": "Single Ticket",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "child",
+        "student",
+        "standard",
+        "senior",
+        "vip"
+      ]
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}

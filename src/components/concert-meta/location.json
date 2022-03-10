@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_concert_meta_locations",
+  "info": {
+    "displayName": "Location",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    },
+    "url": {
+      "type": "text"
+    },
+    "location_picture_url": {
+      "type": "text"
+    }
+  }
+}

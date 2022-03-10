@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_band_meta_band_albums",
+  "info": {
+    "displayName": "Band Albums",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "single_album": {
+      "displayName": "Album",
+      "type": "component",
+      "repeatable": true,
+      "component": "band-meta.album"
+    }
+  }
+}
